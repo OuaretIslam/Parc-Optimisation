@@ -11,8 +11,6 @@ Some Images :
 <img width="958" alt="Screenshot 2025-06-26 213922" src="https://github.com/user-attachments/assets/df966f88-f2b2-40b8-8cbc-1314601bc4d0" />
 <img width="959" alt="Screenshot 2025-06-26 214021" src="https://github.com/user-attachments/assets/524eabbc-4524-4ddc-9767-94e0c4fc1ed5" />
 <img width="959" alt="Screenshot 2025-06-26 213950" src="https://github.com/user-attachments/assets/b6132fcf-b54f-4a3f-b64e-667426f5c245" />
-<img width="958" alt="Screenshot 2025-06-26 214042" src="https://github.com/user-attachments/assets/df33e726-994f-4fdb-b26a-17c4f840db30" />
-<img width="959" alt="Screenshot 2025-06-26 214111" src="https://github.com/user-attachments/assets/c449381d-88a4-43ca-96d7-7c37095c7484" />
 <img width="959" alt="Screenshot 2025-06-26 214136" src="https://github.com/user-attachments/assets/2b40499d-9ae4-4ef0-bb9c-b5e5be5895be" />
 
 Core Features:
