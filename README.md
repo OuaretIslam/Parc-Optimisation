@@ -55,15 +55,15 @@ Core Features:
 
     "Tools that match actual warehouse workflows"
 
-   Technical Foundation:
+Technical Foundation:
 
-Frontend: JavaFX (intuitive desktop interface)
+   Frontend: JavaFX (intuitive desktop interface)
 
-Backend: Java (object-oriented logic)
+   Backend: Java (object-oriented logic)
 
-Database: MySQL via WAMP Server (phpMyAdmin)
+   Database: MySQL via WAMP Server (phpMyAdmin)
 
-Architecture: MVC pattern with 6 relational tables
+   Architecture: MVC pattern with 6 relational tables
 
 Why It Matters:
 
@@ -86,8 +86,8 @@ Why It Matters:
    Solves genuine business pain points
 
    Demonstrates growth mindset and technical foundations
-
-Experience OptiFleet:
+   
+   Experience OptiFleet:
 
  Admin demo:
 
