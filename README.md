@@ -67,46 +67,46 @@ Architecture: MVC pattern with 6 relational tables
 
 Why It Matters:
 
- Error Prevention
+   Error Prevention
 
- Employees only interact with prepared orders
+   Employees only interact with prepared orders
 
- Auto-deletion clears dead stock automatically
+   Auto-deletion clears dead stock automatically
 
- Efficiency Boost
+   Efficiency Boost
 
- Driver reassignment takes seconds
+   Driver reassignment takes seconds
 
- Real-time inventory updates
+   Real-time inventory updates
 
- Beginner's Achievement
+   Beginner's Achievement
 
- My first full-stack application
+   My first full-stack application
 
- Solves genuine business pain points
+   Solves genuine business pain points
 
- Demonstrates growth mindset and technical foundations
+   Demonstrates growth mindset and technical foundations
 
 Experience OptiFleet:
 
-Admin demo:
+ Admin demo:
 
- Add new products → Monitor shipments → Delete depleted items
+   Add new products → Monitor shipments → Delete depleted items
 
-Employee demo:
+ Employee demo:
 
- Decrease "Stone" quantity → Auto-delete at zero
+   Decrease "Stone" quantity → Auto-delete at zero
 
- Reassign Driver #19 → Set truck "On Route"
+   Reassign Driver #19 → Set truck "On Route"
 
- Process prepared orders only
+   Process prepared orders only
 
 Conclusion:
- OptiFleet proves that beginner projects can deliver real value:
+   OptiFleet proves that beginner projects can deliver real value:
 
- 90% fewer shipping mistakes
+   90% fewer shipping mistakes
 
- Clean, actionable inventory views
+   Clean, actionable inventory views
 
- Faster dispatch decisions
- As my first JavaFX application, it represents both a learning milestone and a foundation for future growth.
+   Faster dispatch decisions
+   As my first JavaFX application, it represents both a learning milestone and a foundation for future growth.
