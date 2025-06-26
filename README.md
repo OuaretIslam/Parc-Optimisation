@@ -3,6 +3,10 @@ Introduction:
 As a beginner developer, I created OptiFleet – my first desktop application using JavaFX and MySQL. Designed to solve real logistics challenges, it features dual-role authentication with tailored workflows for administrators and warehouse employees.
 
 Some Images :
+
+
+
+
 <img width="592" alt="Screenshot 2025-06-26 213826" src="https://github.com/user-attachments/assets/e282308d-0374-4ee3-8932-26eb15e777f3" />
 <img width="958" alt="Screenshot 2025-06-26 213922" src="https://github.com/user-attachments/assets/df966f88-f2b2-40b8-8cbc-1314601bc4d0" />
 <img width="959" alt="Screenshot 2025-06-26 214021" src="https://github.com/user-attachments/assets/524eabbc-4524-4ddc-9767-94e0c4fc1ed5" />
@@ -15,43 +19,43 @@ Core Features:
 
 1. Secure Role-Based Access
 
-Login authentication redirects users to role-specific dashboards
+   Login authentication redirects users to role-specific dashboards
 
-Admins control strategic operations; employees handle daily tasks
+   Admins control strategic operations; employees handle daily tasks
 
 2. Admin Control Hub
 
-Employee Management: Add/edit staff profiles
+   Employee Management: Add/edit staff profiles
 
-Truck Fleet Oversight: Register vehicles, assign drivers
+   Truck Fleet Oversight: Register vehicles, assign drivers
 
-Product Mastery: Full inventory control (add/edit/delete items)
+   Product Mastery: Full inventory control (add/edit/delete items)
 
-"You manage the entire ecosystem from one screen"
+   "You manage the entire ecosystem from one screen"
 
 3. Employee Workspace
 
-Truck Operations:
+   Truck Operations:
 
-Reassign drivers instantly
+   Reassign drivers instantly
 
-Update status (Free/On Route/Maintenance)
+   Update status (Free/On Route/Maintenance)
 
-Smart Inventory:
+   Smart Inventory:
 
-Decrease quantities as products ship
+    Decrease quantities as products ship
 
-Auto-delete items when stock hits zero
+    Auto-delete items when stock hits zero
 
-Delivery Focus:
+   Delivery Focus:
 
-See ONLY prepared orders (prevents shipping errors)
+    See ONLY prepared orders (prevents shipping errors)
 
-View ready-to-go routes in itinerary management
+    View ready-to-go routes in itinerary management
 
-"Tools that match actual warehouse workflows"
+    "Tools that match actual warehouse workflows"
 
-Technical Foundation:
+   Technical Foundation:
 
 Frontend: JavaFX (intuitive desktop interface)
 
@@ -63,46 +67,46 @@ Architecture: MVC pattern with 6 relational tables
 
 Why It Matters:
 
-Error Prevention
+ Error Prevention
 
-Employees only interact with prepared orders
+ Employees only interact with prepared orders
 
-Auto-deletion clears dead stock automatically
+ Auto-deletion clears dead stock automatically
 
-Efficiency Boost
+ Efficiency Boost
 
-Driver reassignment takes seconds
+ Driver reassignment takes seconds
 
-Real-time inventory updates
+ Real-time inventory updates
 
-Beginner's Achievement
+ Beginner's Achievement
 
-My first full-stack application
+ My first full-stack application
 
-Solves genuine business pain points
+ Solves genuine business pain points
 
-Demonstrates growth mindset and technical foundations
+ Demonstrates growth mindset and technical foundations
 
 Experience OptiFleet:
 
 Admin demo:
 
-Add new products → Monitor shipments → Delete depleted items
+ Add new products → Monitor shipments → Delete depleted items
 
 Employee demo:
 
-Decrease "Stone" quantity → Auto-delete at zero
+ Decrease "Stone" quantity → Auto-delete at zero
 
-Reassign Driver #19 → Set truck "On Route"
+ Reassign Driver #19 → Set truck "On Route"
 
-Process prepared orders only
+ Process prepared orders only
 
 Conclusion:
-OptiFleet proves that beginner projects can deliver real value:
+ OptiFleet proves that beginner projects can deliver real value:
 
-90% fewer shipping mistakes
+ 90% fewer shipping mistakes
 
-Clean, actionable inventory views
+ Clean, actionable inventory views
 
-Faster dispatch decisions
-As my first JavaFX application, it represents both a learning milestone and a foundation for future growth.
+ Faster dispatch decisions
+ As my first JavaFX application, it represents both a learning milestone and a foundation for future growth.
