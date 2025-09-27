@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="644.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.EmployeeManagementController">
+   <children>
+      <Pane prefHeight="644.0" prefWidth="1280.0">
+         <children>
+            <Label layoutX="431.0" layoutY="67.0" text="Employee Management System">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="27.0" />
+               </font>
+            </Label>
+            <Button fx:id="BackB" layoutX="24.0" layoutY="19.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="32.0" prefWidth="33.0" style="-fx-background-color: #FFC300; -fx-background-radius: 20px;">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Leftbut.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+<!-- TableView -->
+        <TableView fx:id="employeeTable" layoutX="232.0" layoutY="124.0" prefHeight="300" prefWidth="802.0">
+            <columns>
+                <TableColumn fx:id="colId" prefWidth="200" text="ID" />
+                <TableColumn fx:id="colUsername" prefWidth="200" text="Username" />
+                <TableColumn fx:id="colRole" prefWidth="200" text="Role" />
+                <TableColumn fx:id="colPassword" prefWidth="200" text="Password" />
+            </columns>
+        </TableView>
+            <Button fx:id="addButton" layoutX="358.0" layoutY="485.0" mnemonicParsing="false" onAction="#handleAddButton" prefHeight="29.0" prefWidth="147.0" style="-fx-background-color: #FFAA00;" text="Add" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="editButton" layoutX="560.0" layoutY="485.0" mnemonicParsing="false" onAction="#handleEditButton" prefHeight="29.0" prefWidth="147.0" style="-fx-background-color: #FFAA00;" text="Edit" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="deleteButton" layoutX="762.0" layoutY="485.0" mnemonicParsing="false" onAction="#handleDeleteButton" prefHeight="29.0" prefWidth="147.0" style="-fx-background-color: #FFAA00;" text="Delete" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
