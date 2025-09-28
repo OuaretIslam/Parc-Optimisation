@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="644.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DriversMANController">
+   <children>
+      <Pane prefHeight="644.0" prefWidth="1280.0">
+         <children>
+            <Label layoutX="413.0" layoutY="54.0" text="Drivers Management System">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="29.0" />
+               </font>
+            </Label>
+            <Button fx:id="EDAddBUT" layoutX="36.0" layoutY="456.0" mnemonicParsing="false" onAction="#handleAddDriver"  prefHeight="29.0" prefWidth="147.0" style="-fx-background-color: #FFAA00;" text="Add" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="EDStatusF" layoutX="139.0" layoutY="382.0" prefHeight="25.0" prefWidth="255.0" promptText="Driver Status" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: #FFAA00; -fx-background-color: #F5F5F5;">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="12.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="33.0" fitWidth="32.0" layoutX="93.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/DriverNIc.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="93.0" layoutY="194.0" text="Driver Name :">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="22.0" />
+               </font>
+            </Label>
+            <TableView fx:id="DriversTable" layoutX="611.0" layoutY="147.0" prefHeight="420.0" prefWidth="562.0">
+               <columns>
+                  <TableColumn fx:id="DriverIdCol" prefWidth="187.0" text="Driver Id" />
+                  <TableColumn fx:id="DriverNCol" minWidth="0.0" prefWidth="187.0" text="Driver Name" />
+                  <TableColumn fx:id="DriverStatusCol" minWidth="0.0" prefWidth="187.0" text="Driver Status" />
+               </columns>
+            </TableView>
+            <TextField fx:id="EDNameF" layoutX="139.0" layoutY="260.0" prefHeight="25.0" prefWidth="255.0" promptText="Driver Name" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: #FFAA00; -fx-background-color: #F5F5F5;">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="12.0" />
+               </font>
+            </TextField>
+            <Button fx:id="EDDelBUT" layoutX="382.0" layoutY="456.0" mnemonicParsing="false" onAction="#handleDeleteDriver" prefHeight="29.0" prefWidth="147.0" style="-fx-background-color: #FFAA00;" text="Delete" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="93.0" layoutY="309.0" text="Driver Status :">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="22.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="96.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/DriverStatIc.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="EDEdBUT1" layoutX="207.0" layoutY="456.0" mnemonicParsing="false" onAction="#handleEditDrivers" prefHeight="29.0" prefWidth="147.0" style="-fx-background-color: #FFAA00;" text="Edit" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button fx:id="BackB" layoutX="44.0" layoutY="39.0" mnemonicParsing="false" onAction="#handleBackB" prefHeight="32.0" prefWidth="33.0" style="-fx-background-color: #FFAA00; -fx-background-radius: 20px;">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Leftbut.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

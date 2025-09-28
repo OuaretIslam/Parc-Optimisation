@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="579.0" prefWidth="671.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.TruckEditController">
+   <children>
+      <Pane prefHeight="579.0" prefWidth="671.0">
+         <children>
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="33.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/ProductN.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="255.0" layoutY="28.0" text="Truck Edit">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="106.0" text="truck plate :">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="25.0" />
+               </font>
+            </Label>
+            <TextField fx:id="TruckNE" layoutX="64.0" layoutY="158.0" prefHeight="25.0" prefWidth="255.0" promptText="truck plate" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: #FFC300; -fx-background-color: #F5F5F5;">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="33.0" layoutY="212.0" text="Truck Type :">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="25.0" />
+               </font>
+            </Label>
+            <TextField fx:id="TruckTE" layoutX="64.0" layoutY="265.0" prefHeight="25.0" prefWidth="255.0" promptText="Truck Type" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: #FFC300; -fx-background-color: #F5F5F5;">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="33.0" layoutY="323.0" text="Truck Brand :">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="25.0" />
+               </font>
+            </Label>
+            <TextField fx:id="TruckBE" layoutX="64.0" layoutY="374.0" prefHeight="25.0" prefWidth="255.0" promptText="Product Brand" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: #FFC300; -fx-background-color: #F5F5F5;">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="12.0" />
+               </font>
+            </TextField>
+            <Button fx:id="ConfirmEditBT" layoutX="65.0" layoutY="514.0" mnemonicParsing="false" onAction="#handleConfirm" prefHeight="29.0" prefWidth="147.0" style="-fx-background-color: #FFC300;" text="Confirm" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="CancelEditBT" layoutX="445.0" layoutY="514.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="29.0" prefWidth="147.0" style="-fx-background-color: #FFC300;" text="Cancel" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="34.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/TType.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="26.0" layoutX="34.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/TBrand.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="336.0" layoutY="168.0" text="Truck Status :">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="336.0" layoutY="275.0" text="Truck Responsible Id :">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="25.0" />
+               </font>
+            </Label>
+            <TextField fx:id="TruckRespIdE" layoutX="367.0" layoutY="326.0" prefHeight="25.0" prefWidth="255.0" promptText="Truck Responsible Id" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: #FFC300; -fx-background-color: #F5F5F5;">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="TruckSE" layoutX="367.0" layoutY="218.0" prefHeight="25.0" prefWidth="255.0" promptText="Truck Status" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: #FFC300; -fx-background-color: #F5F5F5;">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="12.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="336.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/TruckStat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="336.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/DriverNIc.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

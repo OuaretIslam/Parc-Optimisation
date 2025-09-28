@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="644.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.EmployeeInterfaceController">
+   <children>
+      <Pane prefHeight="644.0" prefWidth="1280.0" style="-fx-background-color: #1E1E2F;">
+         <children>
+            <AnchorPane prefHeight="72.0" prefWidth="1280.0" style="-fx-background-color: #1b1b1b;">
+               <children>
+                  <Label layoutX="27.0" layoutY="17.0" prefHeight="38.0" prefWidth="71.0" text="Opti" textFill="WHITE">
+                     <font>
+                        <Font name="SansSerif Bold Italic" size="33.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="98.0" layoutY="17.0" prefHeight="38.0" prefWidth="79.0" text="Fleet" textFill="#ffaa00">
+                     <font>
+                        <Font name="SansSerif Bold Italic" size="33.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="BackB" layoutX="1158.0" layoutY="13.0" mnemonicParsing="false" onAction="#handleBackB" prefHeight="32.0" prefWidth="33.0" style="-fx-background-color: #1b1b1b; -fx-background-radius: 20px;">
+                     <graphic>
+                        <ImageView fitHeight="46.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/WBackB.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="CloseB" layoutX="1212.0" layoutY="13.0" mnemonicParsing="false" onAction="#handleCloseB" prefHeight="32.0" prefWidth="33.0" style="-fx-background-color: #1b1b1b; -fx-background-radius: 20px;">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <graphic>
+                        <ImageView fitHeight="46.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/CloseB.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="358.0" prefHeight="285.0" prefWidth="426.0" style="-fx-background-color: #FFAA00;">
+               <children>
+                  <ImageView fitHeight="221.0" fitWidth="214.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/LoginImage2.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="221.0" fitWidth="214.0" layoutX="213.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/LoginImage.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="32.0" layoutY="233.0" prefHeight="38.0" prefWidth="149.0" text="Welcome" textFill="WHITE">
+                     <font>
+                        <Font name="SansSerif Bold Italic" size="33.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="297.0" layoutY="14.0" prefHeight="38.0" prefWidth="45.0" text="To" textFill="WHITE">
+                     <font>
+                        <Font name="SansSerif Bold Italic" size="33.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+            <AnchorPane layoutX="426.0" layoutY="72.0" prefHeight="285.0" prefWidth="426.0" style="-fx-background-color: #FFAA00;">
+               <children>
+                  <ImageView fitHeight="285.0" fitWidth="500.0" layoutX="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/TruckSun.jpg" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+            <AnchorPane layoutX="853.0" layoutY="358.0" prefHeight="285.0" prefWidth="427.0" style="-fx-background-color: #FFAA00;">
+               <children>
+                  <ImageView fitHeight="221.0" fitWidth="214.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/login3.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="221.0" fitWidth="214.0" layoutX="214.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/login1.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="71.0" layoutY="14.0" prefHeight="38.0" prefWidth="71.0" text="Our" textFill="WHITE">
+                     <font>
+                        <Font name="SansSerif Bold Italic" size="33.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="263.0" layoutY="233.0" prefHeight="38.0" prefWidth="116.0" text="Familly" textFill="WHITE">
+                     <font>
+                        <Font name="SansSerif Bold Italic" size="33.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+            <Button fx:id="DriversM" alignment="BOTTOM_LEFT" graphicTextGap="6.0" layoutX="81.0" layoutY="146.0" mnemonicParsing="false" onAction="#handleDriversMB" prefHeight="40.0" prefWidth="266.0" style="-fx-background-color: #FFAA00;" text=" Drivers management" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="28.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/GestionUser.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="ProductsM" alignment="BOTTOM_LEFT" graphicTextGap="6.0" layoutX="81.0" layoutY="226.0" mnemonicParsing="false" onAction="#handleProductsMB" prefHeight="40.0" prefWidth="266.0" style="-fx-background-color: #FFAA00;" text="Products management" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="28.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/GestionProduit.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="DeliveriesM" alignment="BOTTOM_LEFT" graphicTextGap="6.0" layoutX="511.0" layoutY="442.0" mnemonicParsing="false" onAction="#handleDeliveriesMB" prefHeight="40.0" prefWidth="266.0" style="-fx-background-color: #FFAA00;" text="Deliveries management" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="28.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/GDeliveryIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="OrdersM" alignment="BOTTOM_LEFT" graphicTextGap="6.0" layoutX="511.0" layoutY="522.0" mnemonicParsing="false" onAction="#handleOrdersMB" prefHeight="40.0" prefWidth="266.0" style="-fx-background-color: #FFAA00;" text="Orders management" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="28.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/OredersGIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="IrineraryN" alignment="BOTTOM_LEFT" graphicTextGap="6.0" layoutX="934.0" layoutY="146.0" mnemonicParsing="false" onAction="#handleIrineraryNB" prefHeight="40.0" prefWidth="266.0" style="-fx-background-color: #FFAA00;" text=" Itinerary management" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="ItineraryM" fitHeight="28.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/GItineraryIc.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="TruckSM" alignment="BOTTOM_LEFT" graphicTextGap="6.0" layoutX="934.0" layoutY="226.0" mnemonicParsing="false" onAction="#handleTruckSMB" prefHeight="40.0" prefWidth="266.0" style="-fx-background-color: #FFAA00;" text="Trucks management" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="28.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/TruckMIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
