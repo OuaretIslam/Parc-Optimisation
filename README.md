@@ -1,111 +1,78 @@
-OptiFleet Presentation: Logistics Management Made Simple
-Introduction:
-As a beginner developer, I created OptiFleet – my first desktop application using JavaFX and MySQL. Designed to solve real logistics challenges, it features dual-role authentication with tailored workflows for administrators and warehouse employees.
+# OptiFleet
 
-Some Images :
+**Logistics Management Made Simple**
 
+---
 
+## Introduction
+OptiFleet is my first desktop application built using **JavaFX** and **MySQL**. Designed to tackle real logistics challenges, it provides **dual-role authentication** with tailored workflows for **administrators** and **warehouse employees**.
 
+---
 
-<img width="592" alt="Screenshot 2025-06-26 213826" src="https://github.com/user-attachments/assets/e282308d-0374-4ee3-8932-26eb15e777f3" />
-<img width="958" alt="Screenshot 2025-06-26 213922" src="https://github.com/user-attachments/assets/df966f88-f2b2-40b8-8cbc-1314601bc4d0" />
-<img width="959" alt="Screenshot 2025-06-26 214021" src="https://github.com/user-attachments/assets/524eabbc-4524-4ddc-9767-94e0c4fc1ed5" />
-<img width="959" alt="Screenshot 2025-06-26 213950" src="https://github.com/user-attachments/assets/b6132fcf-b54f-4a3f-b64e-667426f5c245" />
-<img width="959" alt="Screenshot 2025-06-26 214136" src="https://github.com/user-attachments/assets/2b40499d-9ae4-4ef0-bb9c-b5e5be5895be" />
+## Screenshots
 
-Core Features:
+![Dashboard](https://github.com/user-attachments/assets/e282308d-0374-4ee3-8932-26eb15e777f3)
+![Employee Workspace](https://github.com/user-attachments/assets/df966f88-f2b2-40b8-8cbc-1314601bc4d0)
+![Admin Panel](https://github.com/user-attachments/assets/524eabbc-4524-4ddc-9767-94e0c4fc1ed5)
+![Truck Management](https://github.com/user-attachments/assets/b6132fcf-b54f-4a3f-b64e-667426f5c245)
+![Inventory Overview](https://github.com/user-attachments/assets/2b40499d-9ae4-4ef0-bb9c-b5e5be5895be)
 
-1. Secure Role-Based Access
+---
 
-   Login authentication redirects users to role-specific dashboards
+## Core Features
 
-   Admins control strategic operations; employees handle daily tasks
+### 1. Secure Role-Based Access
+- **Login authentication** redirects users to role-specific dashboards.
+- Admins manage strategic operations; employees handle day-to-day tasks.
 
-2. Admin Control Hub
+### 2. Admin Control Hub
+- **Employee Management:** Add/edit staff profiles.
+- **Truck Fleet Oversight:** Register vehicles, assign drivers.
+- **Product Mastery:** Full inventory control (add/edit/delete items).
+- *“Manage the entire ecosystem from one screen.”*
 
-   Employee Management: Add/edit staff profiles
+### 3. Employee Workspace
+- **Truck Operations:** Reassign drivers instantly and update status (Free/On Route/Maintenance).
+- **Smart Inventory:** Auto-decrease quantities as products ship and delete items when stock hits zero.
+- **Delivery Focus:** View only prepared orders and manage ready-to-go routes.
+- *“Tools that match actual warehouse workflows.”*
 
-   Truck Fleet Oversight: Register vehicles, assign drivers
+---
 
-   Product Mastery: Full inventory control (add/edit/delete items)
+## Technical Foundation
+- **Frontend:** JavaFX (desktop interface)
+- **Backend:** Java (object-oriented logic)
+- **Database:** MySQL via WAMP Server (phpMyAdmin)
+- **Architecture:** MVC pattern with 6 relational tables
 
-   "You manage the entire ecosystem from one screen"
+---
 
-3. Employee Workspace
+## Why OptiFleet Matters
+- **Error Prevention:** Employees interact only with prepared orders; auto-delete clears dead stock.
+- **Efficiency Boost:** Driver reassignment in seconds; real-time inventory updates.
+- **Beginner's Achievement:** First full-stack project solving real business pain points.
 
-   Truck Operations:
+---
 
-   Reassign drivers instantly
+## Demo Scenarios
 
-   Update status (Free/On Route/Maintenance)
+**Admin Demo:**
+- Add new products → Monitor shipments → Auto-delete depleted items.
 
-   Smart Inventory:
+**Employee Demo:**
+- Decrease "Stone" quantity → Auto-delete at zero.
+- Reassign Driver #19 → Set truck "On Route".
+- Process prepared orders only.
 
-    Decrease quantities as products ship
+---
 
-    Auto-delete items when stock hits zero
+## Conclusion
+OptiFleet demonstrates that beginner projects can deliver **real value**:  
+- 90% fewer shipping mistakes  
+- Clean, actionable inventory views  
+- Faster dispatch decisions  
 
-   Delivery Focus:
+As my first JavaFX application, it represents both a **learning milestone** and a foundation for **future growth**.
 
-    See ONLY prepared orders (prevents shipping errors)
+---
 
-    View ready-to-go routes in itinerary management
-
-    "Tools that match actual warehouse workflows"
-
-Technical Foundation:
-
-   Frontend: JavaFX (intuitive desktop interface)
-
-   Backend: Java (object-oriented logic)
-
-   Database: MySQL via WAMP Server (phpMyAdmin)
-
-   Architecture: MVC pattern with 6 relational tables
-
-Why It Matters:
-
-   Error Prevention
-
-   Employees only interact with prepared orders
-
-   Auto-deletion clears dead stock automatically
-
-   Efficiency Boost
-
-   Driver reassignment takes seconds
-
-   Real-time inventory updates
-
-   Beginner's Achievement
-
-   My first full-stack application
-
-   Solves genuine business pain points
-
-   Demonstrates growth mindset and technical foundations
-   
-   Experience OptiFleet:
-
- Admin demo:
-
-   Add new products → Monitor shipments → Delete depleted items
-
- Employee demo:
-
-   Decrease "Stone" quantity → Auto-delete at zero
-
-   Reassign Driver #19 → Set truck "On Route"
-
-   Process prepared orders only
-
-Conclusion:
-   OptiFleet proves that beginner projects can deliver real value:
-
-   90% fewer shipping mistakes
-
-   Clean, actionable inventory views
-
-   Faster dispatch decisions
-   As my first JavaFX application, it represents both a learning milestone and a foundation for future growth.
-# Pong-Game-
